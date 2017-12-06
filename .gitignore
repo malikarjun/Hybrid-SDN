@@ -1,0 +1,13 @@
+# Compiled python files #
+#########################
+*.pyc
+
+# Temporary files #
+###################
+*~
+
+# Data Folders #
+################
+stat/
+backup/
+COMSNET Data/

@@ -1,0 +1,17 @@
+
+ip rule add to 10.0.1.252 lookup local pref 0
+ip rule add to 10.0.2.252 lookup local pref 0
+ip rule add to 10.0.3.252 lookup local pref 0
+ip rule add to 10.0.4.252 lookup local pref 0
+
+ip rule add from 10.0.1.0/24 iif vlan31 lookup 4 pref 1
+ip rule add from 10.0.2.0/24 iif vlan32 lookup 4 pref 1
+ip rule add from 10.0.3.0/24 iif vlan33 lookup 4 pref 1
+ip rule add from 10.0.4.0/24 iif vlan34 lookup 4 pref 1
+
+ip rule add iif vlan31 lookup 9 pref 2
+ip rule add iif vlan32 lookup 9 pref 2
+ip rule add iif vlan33 lookup 9 pref 2
+ip rule add iif vlan34 lookup 9 pref 2
+
+bash route.sh

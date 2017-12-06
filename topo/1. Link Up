@@ -1,0 +1,17 @@
+1. Link Up
+1.1 20s
+Median: 22.50, Max: 34, Min: 5
+Median: 45, Max: 60, Min: 29
+1.2 10s
+Median : 30, Max: 35, Min: 25
+1.3 30s
+Median: 42, Max: 55, Min: 25
+
+2. Link Down
+2.1 20s
+Median: 34, Max: 45, Min: 25
+Median: 35, Max: 45, Min: 25
+2.2 10s
+Median: 41, Max: 48, Min: 31
+2.3 30s
+Median: 55, Max: 68, Min: 31
