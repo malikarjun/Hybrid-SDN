@@ -1,2 +1,2 @@
-# hybrid-sdn-thesis
-Hybrid SDN thesis work
+# hybrid-sdn
+Incremental Deployment of SDN using gratuitous ARP
